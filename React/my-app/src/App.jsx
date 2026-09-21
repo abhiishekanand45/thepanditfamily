@@ -20,7 +20,7 @@ function App() {
 
         {/* Home Section */}
         <section id="home" className="hero">
-          <h1>Hi, I'm <span>Your Abhishek Anand </span></h1>
+          <h1 style={{fontSize: "clamp(32px, 8vw, 56px)", lineHeight: "1.2", textAlign: "center"}}>Hi, I'm <span style={{display: "block", color: "#6366f1"}}>Your Abhishek Anand</span></h1>
           <h3>🙏Radhe Radhe🙏</h3>
           <p>Do Good Deeds, everything will be Good,The Rest is Hare Krishna</p>
           <div className="btns" style={{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"}}>
