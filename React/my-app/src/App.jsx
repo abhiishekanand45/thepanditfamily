@@ -64,13 +64,11 @@ function App() {
 
         {/* Contact */}
         <section id="contact" className="section">
-          <h2 style={{color:"#4a6cf7", textAlign: "center", marginBottom: "15px"}}> Contact Me </h2>
+          <h2 style={{color:"#4a6cf7", textAlign: "center", marginBottom: "15px"}}> Contact Me</h2>
           <div style={{display: "flex", flexDirection: "column", gap: "5px", textAlign: "center"}}>
-              <p>Email: <a href="mailto:abhishekkumar85929@gmail.com" style={{color: "blue"}}>abhishekkumar85929@gmail.com</a></p>
-              <p>Instagram: <a href="https://instagram.com/abhiishekanand45" target="_blank" style={{color: "blue"}}>abhiishekanand45</ a></p>
-              <p>linkedin: <a href="https://www.linkedin.com/in/abhishek-kumar-83348b21b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" style={{color: "blue"}}>Abhishek kumar</ a></p>
-              <p>github: <a href="https://github.com/abhiishekanand45" target="_blank" style={{color: "blue"}}>Abhishek anand</ a></p>
-              <p>Contact: <a href="tel:8252981834" style={{color: "blue"}}>8252981834</a></p>
+              <p>Email: <a href="mailto:abhishekkumar85929@gmail.com" style={{color: "blue", textDecoration: "none"}}>abhishekkumar85929@gmail.com</a></p>
+              <p>linkedin: <a href="https://www.linkedin.com/in/abhishek-kumar-83348b21b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" style={{color: "blue", textDecoration: "none"}}>Abhishek kumar</ a></p>
+              <p>github: <a href="https://github.com/abhiishekanand45" target="_blank" style={{color: "blue", textDecoration: "none"}}>Abhishek anand</ a></p>
           </div>
         </section>
 
